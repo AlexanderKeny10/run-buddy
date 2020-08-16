@@ -4,8 +4,6 @@
     box-sizing: border-box;
   }
 
-  
-  
   body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -33,6 +31,11 @@
   
   header nav {
     margin: 7px 0;
+    display: table-column;
+  }
+
+  header nav ul {
+    display: flex;
   }
   
   header nav ul li {
